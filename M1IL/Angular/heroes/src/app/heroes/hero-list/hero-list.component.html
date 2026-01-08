@@ -1,0 +1,65 @@
+<p>hero-list works! {{x}}</p>
+
+<p *ngIf="isDisplayed">BOO</p>
+<p *ngIf="!isDisplayed">un texte va s'afficher dans 5 secondes !</p>
+
+<p>Mes super-heros</p>
+  <table>
+    <thead>
+      <th>Id</th>
+      <th>Nom</th>
+      <th>Score</th>
+    </thead>
+    <tbody>
+      <tr *ngFor="let hero of heroArray">
+        <td>{{hero.id}}</td>
+        <td>{{hero.nom}}</td>
+        <td>{{hero.score ?? 'N/A'}}</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <p>Somme de mes boutons : {{count}}</p>
+  <button type="button" (click)="onButtonClicked($event, 1)">+1</button>
+  <button type="button" (click)="onButtonClicked($event, -1)">-1</button>
+  <button type="button" (click)="onButtonClicked($event, 2)">+2</button>
+
+
+<p>Titre de ma page : {{title}}</p>
+<input type="text" [(ngModel)]="title" />
+
+<p>{{currentDate | date : "dd/MM/yyyy HH:mm:ss" | caractere}}</p>
+
+<form [formGroup]="profileForm" (ngSubmit)="changeValues()">
+    <label for="nom">nom : </label>
+    <input type="text" formControlName="nom" id="nom">
+    <br>
+
+    <div *ngIf="profileForm.get('nom')?.invalid && (profileForm.get('nom')!.dirty || profileForm.get('nom')!.touched)">
+      <div *ngIf="profileForm.get('nom')?.errors?.['forbiddenName']">
+        Name cannot be Bob.
+      </div>
+    </div>
+
+    <label for="prenom">prenom: </label>
+    <input type="text" formControlName="prenom" id="prenom">
+    <br>
+
+    <label for="age">age : </label>
+    <input type="number" formControlName="age" id="age">
+    <br>
+
+    <button type="submit">Envoyer</button>
+</form>
+
+<p>Mon super hero</p>
+    <div *ngIf="currentHero">
+      <span class="label-gras">Id</span><span>{{currentHero.id}}</span>
+      <span class="label-gras">Nom</span><span>{{currentHero.nom}}</span><br>
+      <span class="label-gras">Score</span><span>{{currentHero.score}}</span>
+    </div>
+    <div *ngIf="!currentHero" appHighlight>
+      Chargement...
+    </div>
+    <button type="button" (click)="rotateHeroClicked()">Voir tous les héros</button>

@@ -1,0 +1,15 @@
+C:\Users\julie\Desktop\M1IL\LinQ\ProjetLinQ\obj\Debug\net8.0\Cinematheque.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\julie\Desktop\M1IL\LinQ\ProjetLinQ\obj\Debug\net8.0\Cinematheque.AssemblyInfoInputs.cache
+C:\Users\julie\Desktop\M1IL\LinQ\ProjetLinQ\obj\Debug\net8.0\Cinematheque.AssemblyInfo.cs
+C:\Users\julie\Desktop\M1IL\LinQ\ProjetLinQ\obj\Debug\net8.0\Cinematheque.csproj.CoreCompileInputs.cache
+C:\Users\julie\Desktop\M1IL\LinQ\ProjetLinQ\obj\Debug\net8.0\Cinematheque.sourcelink.json
+C:\Users\julie\Desktop\M1IL\LinQ\ProjetLinQ\bin\Debug\net8.0\Cinematheque.exe
+C:\Users\julie\Desktop\M1IL\LinQ\ProjetLinQ\bin\Debug\net8.0\Cinematheque.deps.json
+C:\Users\julie\Desktop\M1IL\LinQ\ProjetLinQ\bin\Debug\net8.0\Cinematheque.runtimeconfig.json
+C:\Users\julie\Desktop\M1IL\LinQ\ProjetLinQ\bin\Debug\net8.0\Cinematheque.dll
+C:\Users\julie\Desktop\M1IL\LinQ\ProjetLinQ\bin\Debug\net8.0\Cinematheque.pdb
+C:\Users\julie\Desktop\M1IL\LinQ\ProjetLinQ\obj\Debug\net8.0\Cinematheque.dll
+C:\Users\julie\Desktop\M1IL\LinQ\ProjetLinQ\obj\Debug\net8.0\refint\Cinematheque.dll
+C:\Users\julie\Desktop\M1IL\LinQ\ProjetLinQ\obj\Debug\net8.0\Cinematheque.pdb
+C:\Users\julie\Desktop\M1IL\LinQ\ProjetLinQ\obj\Debug\net8.0\Cinematheque.genruntimeconfig.cache
+C:\Users\julie\Desktop\M1IL\LinQ\ProjetLinQ\obj\Debug\net8.0\ref\Cinematheque.dll

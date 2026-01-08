@@ -1,0 +1,20 @@
+{
+  "name": "fake-backend",
+  "version": "1.0.0",
+  "description": "Utilisation de json-server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "json-server",
+    "api",
+    "fake-api"
+  ],
+  "author": "julienlay",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "^3.0.0"
+  }
+}

@@ -1,0 +1,5 @@
+Créer le projet dans un dossier
+
+cd nomdudossier
+dotnet new console
+dotnet run
